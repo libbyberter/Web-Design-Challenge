@@ -10,3 +10,23 @@
     /* Block display (more on this later) */
     display: block;
   }
+
+  tr {
+
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+
+  
+     .col-a {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid red;
+      background: none;
+      margin-left: 300px;
+    } 
+  }
+  
