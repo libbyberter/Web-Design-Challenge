@@ -23,17 +23,64 @@
     text-overflow:ellipsis;
   }
 
-  @media (max-width: 600px) {
+body {
+  background:dimgray;
+}
 
-  
-     .col-a {
-      width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid red;
-      background: none;
-      margin-left: 300px;
-    } 
+.card {
+  margin:20px;
+  background:lightgray;
+}
+.navbar {
+background-color:white;
+margin-bottom: 20px;
+padding:0%;
+margin-left: 10px;
+margin-right:10px;
+}
+
+.navbar-nav {
+  display:flex;
+  justify-content: flex-end;
+  width:100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.navbar-brand{
+  color:white;
+  background: #008b8b;
+  padding: 10px;
+  font-weight: bold;
+  font-family:Georgia;
+  font-size:x-large;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+  .navbar {
+    background-color:#008b8b;
+    margin-bottom: 20px;
+    padding:0%;
+    margin-left: 10px;
+    margin-right:10px;
+    }
+
+  .navbar-brand{
+    color:white;
+    padding: 0px;
+    font-weight: bold;
+    font-family:Georgia;
+    font-size: larger;
   }
+
+  .navbar-toggler {
+    border-color: white;
+  }
+
+
+}
   
